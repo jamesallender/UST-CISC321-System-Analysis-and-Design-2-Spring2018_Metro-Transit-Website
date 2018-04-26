@@ -4,7 +4,8 @@
     /* clear: both; */
     position: absolute;
     top: 650px;
-    left: absolute%;
+    left: -300%;
+    right: -300%;
     height: 110px;
     width: 100%;
     /* margin: 0; */
