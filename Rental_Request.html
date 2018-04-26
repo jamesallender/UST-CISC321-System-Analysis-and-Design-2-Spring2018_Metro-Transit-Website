@@ -1,42 +1,48 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Rental Service</title><!DOCTYPE html>
+	<title>Rental Service</title>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="stylehomemodule.css" rel="stylesheet" type="text/css" />
 </head>
+
 <body>
 	<!--This is my part Mo and is basically showing the date and time and length user want to use the car for 2nd page--> 
 	<img id="mt-logo" style="margin-top:18px;" src="https://www.metrotransit.org/Images/MetroTransitLogo.svg" alt="Metro Transit - Serving the Minneapolis Saint Paul Area" width="225" height="53">
 	<style>
-	url {
-		opacity: 0.5; 
-		filter: alpha(opacity=50); 
+	body {
+		opacity: 5.4; 
+		filter: alpha(opacity=100); 
 	} 
-	body {background-color: white; background-image: url("");} 
+	body {background-image: url("https://www.metrotransit.org/Data/Sites/1/skins/MetroTransitII/Images/Bkg_2.jpg");background-repeat:no-repeat;background-position:50% 139px;} 
 	h1 {color: red;} 
-	h2{color: blue;}
-	h3{color: black;}
-	p {color: black;}
+	h3,h2{color: blue;}
+	p {color: blue;}
 	</style>
 	<center> 
 	<h1 style="text-align: center;">Metro Transit Car Rental Service</h1>  
-	<h2 style="font-size: 1.5em; text-align: center;"><strong>Select Rental Day/Time</strong></h2> 
+	<h3 style="text-align: center;">Select Rental Day/Time</h3>
 	<p>&nbsp;&nbsp;</p>
-	</center><center>
-		<h3 style="text-align: center;">Date</h3>
+	
+		<h2 style="text-align: center;">Date</h2>
 		<input type="Date" />
-		<h3>Time</h3>
+		<h2>Time</h2>
 		<p><input type="Time" /></p>
-		<h3>Lengh of Rental</h3>
+		<h2>Lengh of Rental</h2>
 		<p><input type="time" /></p>
 	</center>
+
+	<div class="center-yellow-bar">
 	<p style="text-align: right;">&nbsp;</p>  
 	<p style="text-align: right;">&nbsp;</p>  
 	<p style="text-align: right;">&nbsp;</p>  
 	<p style="text-align: right;">&nbsp;</p>  
 	<p style="text-align: right;"><a href="Rental_Confirmation.html">Next</a></p> 
-	<p style="text-align: left;"><a href="index.html">Home</a></p> 
+</div>
+
+
+
 
 </body>
 </html>
