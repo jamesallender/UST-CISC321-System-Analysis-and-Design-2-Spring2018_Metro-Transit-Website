@@ -1,0 +1,24 @@
+
+
+.center-yellow-bar {
+    /* clear: both; */
+    position: absolute;
+    top: 650px;
+    left: -300%;
+    height: 110px;
+    width: 400%;
+    /* margin: 0; */
+     padding: 0 0 0 300%; 
+    border: none; 
+    background-color: Yellow; 
+    text-align: center;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+}
+
+.center-yellow-bar a {
+    text-decoration: none;
+}
+
+
