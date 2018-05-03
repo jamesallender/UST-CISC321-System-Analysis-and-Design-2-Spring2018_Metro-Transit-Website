@@ -19,33 +19,41 @@ ul {
     overflow: hidden;
     background-color: lightblue;
 }
-
 li {
     float: left;
 }
-
+		
+		
+		
+li a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+}
+		
+li .active{
+	background-color: yellow;
+}
 li a {
     display: block;
-    color: white;
+    color: black;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
-
 li a:hover {
-    background-color: #111;
+    background-color: yellow;
 }
 </style>
 </head>
 <body>
 
 <ul>
-  <li><a class="active" href="Menu.html">Home</a></li>
-  <li><a href="#news">Rental Request</a></li>
-  <li><a href="Rental_Request.html">Return Rental</a></li>
+  <li><a href="Menu.html">Home</a></li>
+  <li><a href="Rental_Request.html">Rental Request</a></li>
+  <li><a href="Return_Rental.html">Return Rental</a></li>
   <li><a href="Rental_History.html">Rental History</a></li>
+  <li><a class="active" href="Mileage.html">Mileage</a></li>
   <li><a href="index.html">Log Out</a></li>
-
 </ul>
 
 </body>
@@ -71,10 +79,6 @@ li a:hover {
 		<h1 style="font-size: 2.2em; text-align: center;">Metro Transit Car Rental Service</h1> 
 		<h2 style="font-size: 2em; text-align: center;"><strong>Mileage:</strong></h2> 
 
-		<p 
-			style="font-size: 1.5em; text-align: right;"><a href="index.html">Logout</a>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-		</p>
 
 		<h2 style="font-size: 1.75em; text-align: center;"><strong>Enter Car Mileage:</strong></h2>  
 		<form>
