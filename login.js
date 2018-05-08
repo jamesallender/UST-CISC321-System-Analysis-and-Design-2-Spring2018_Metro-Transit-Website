@@ -2,6 +2,7 @@ function initialize() {
 	var input = document.getElementById('username');
 	var input2 = document.getElementById('password');
     var loginButton = document.getElementById('loginButton')
+    alert('Please enter an ID and Pin number!');
 
 	input.addEventListener('keyup', function(event) {
     	if (event.keyCode === 13) {
